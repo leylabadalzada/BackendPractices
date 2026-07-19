@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Migrations\\20260719171741_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECommerce\\Migrations\\20260719171741_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\ecommerce\\ecommerce\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Migrations\\20260719171656_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ECommerce\\Migrations\\20260719171656_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\ecommerce\\ecommerce\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\ecommerce\\ecommerce\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\ecommerce\\ecommerce\\migrations\\20260719171200_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\migrations\\20260719171200_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\ecommerce\\ecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\ecommerce\\ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\ecommerce\\ecommerce\\ecommerce.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\ecommerce.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\ecommerce\\ecommerce\\views\\portfolio\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D2DE9198-E1FC-43F8-262A-6F69B819A4BD}|ECommerce\\ECommerce.csproj|solutionrelative:ecommerce\\views\\portfolio\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -35,19 +71,136 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20260719171741_product.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Migrations\\20260719171741_product.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Migrations\\20260719171741_product.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Migrations\\20260719171741_product.cs",
+              "RelativeToolTip": "ECommerce\\Migrations\\20260719171741_product.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T17:17:41.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260719171656_product.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Migrations\\20260719171656_product.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Migrations\\20260719171656_product.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Migrations\\20260719171656_product.cs",
+              "RelativeToolTip": "ECommerce\\Migrations\\20260719171656_product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T17:16:56.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Models\\Product.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Models\\Product.cs",
+              "RelativeToolTip": "ECommerce\\Models\\Product.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA3wA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T17:13:39.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260719171200_category.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Migrations\\20260719171200_category.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Migrations\\20260719171200_category.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Migrations\\20260719171200_category.cs",
+              "RelativeToolTip": "ECommerce\\Migrations\\20260719171200_category.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T17:12:01.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\appsettings.json",
+              "RelativeDocumentMoniker": "ECommerce\\appsettings.json",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\appsettings.json",
+              "RelativeToolTip": "ECommerce\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-19T16:53:43.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Contexts\\AppDbContext.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "ECommerce\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T16:42:12.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Program.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Program.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Program.cs",
+              "RelativeToolTip": "ECommerce\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T16:50:13.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ECommerce\\Models\\Category.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Models\\Category.cs",
+              "RelativeToolTip": "ECommerce\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T16:36:16.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ECommerce",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\ECommerce.csproj",
+              "RelativeDocumentMoniker": "ECommerce\\ECommerce.csproj",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\ECommerce.csproj",
+              "RelativeToolTip": "ECommerce\\ECommerce.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-19T16:46:31.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Views\\Portfolio\\Details.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Portfolio\\Details.cshtml",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Views\\Portfolio\\Details.cshtml*",
-              "RelativeToolTip": "ECommerce\\Views\\Portfolio\\Details.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Views\\Portfolio\\Details.cshtml",
+              "RelativeToolTip": "ECommerce\\Views\\Portfolio\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-16T13:28:21.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "PortfolioController.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Controllers\\PortfolioController.cs",
               "RelativeDocumentMoniker": "ECommerce\\Controllers\\PortfolioController.cs",
@@ -60,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Home\\Index.cshtml",
@@ -73,26 +226,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ECommerce\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "ECommerce\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAAAKIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAIBJwKIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-16T13:11:49.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ECommerce\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\ECommerce\\ECommerce\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ECommerce\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAIBJwAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-16T13:10:12.095Z",
               "EditorCaption": ""
