@@ -1,4 +1,6 @@
 using ECommerce.Contexts;
+using ECommerce.Services.Implements;
+using ECommerce.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("default")));
+
+builder.Services.AddScoped<ICategoryService, CategoryService>(); //todo:Lifecycles
 
 var app = builder.Build();
 
@@ -24,6 +28,11 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.MapControllerRoute(
+            name: "areas",
+            pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+          );
 
 app.MapControllerRoute(
     name: "default",

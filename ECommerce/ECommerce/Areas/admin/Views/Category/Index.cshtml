@@ -1,0 +1,32 @@
+﻿@model List<CategoryGetVM>
+
+<div class="container">
+    <a class="btn btn-primary" asp-controller="Category" asp-action="Create">Create</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">CreatedAt</th>
+                <th scope="col">UpdatedAt</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var category in Model)
+            {
+                <tr>
+                    <th scope="row">@category.Id</th>
+                    <td>@category.Name</td>
+                    <td>@category.CreatedAt</td>
+                    <td>@category.UpdatedAt</td>
+                    <td>
+                        <form asp-action="Remove" asp-route-id="@category.Id">
+                            <button class="btn btn-danger">Remove</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

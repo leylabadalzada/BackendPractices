@@ -1,8 +1,9 @@
-﻿namespace ECommerce.Models
+﻿using ECommerce.Models.BaseModels;
+
+namespace ECommerce.Models
 {
-    public class Product
+    public class Product : BaseEntity
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string Client { get; set; }

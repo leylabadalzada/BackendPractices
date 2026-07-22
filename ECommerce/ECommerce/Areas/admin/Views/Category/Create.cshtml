@@ -1,0 +1,15 @@
+﻿@model CategoryCreateVM
+
+<div class="container">
+    <div class="m-3">
+        <form asp-action="create" method="post">
+            <div class="form-group">
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" class="form-control" aria-describedby="emailHelp">
+                <small asp-for="Name" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Create</button>
+            <a class="btn" asp-action="Index">Cancel</a>
+        </form>
+    </div>
+</div>
