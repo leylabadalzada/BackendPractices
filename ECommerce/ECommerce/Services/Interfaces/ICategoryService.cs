@@ -4,8 +4,11 @@ namespace ECommerce.Services.Interfaces
 {
     public interface ICategoryService
     {
-        void Create(CategoryCreateVM vm);
+        void Create(CategoryCreateOrUpdateVM vm);
         List<CategoryGetVM> GetAll();
         void Remove(int id);
+        void Update(int id, CategoryCreateOrUpdateVM vm);
+        CategoryGetVM GetById(int id);
     }
 }
+//CRUD - Create, Read, Update, Delete

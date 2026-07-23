@@ -1,9 +1,8 @@
-﻿using ECommerce.Models.BaseModels;
-
-namespace ECommerce.Models
+﻿namespace ECommerce.ViewModels.Product
 {
-    public class Product : BaseEntity
+    public class ProductGetVM
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string Client { get; set; }
@@ -11,6 +10,7 @@ namespace ECommerce.Models
         public string URL { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; } //navigation property
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 }

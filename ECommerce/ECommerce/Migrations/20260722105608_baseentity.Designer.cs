@@ -36,7 +36,7 @@ namespace ECommerce.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("VmName")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -73,7 +73,7 @@ namespace ECommerce.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("VmName")
                         .IsRequired()
                         .HasColumnType("text");
 

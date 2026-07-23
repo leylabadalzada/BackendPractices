@@ -32,7 +32,7 @@ namespace ECommerce.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Name")
+                    b.Property<string>("VmName")
                         .IsRequired()
                         .HasColumnType("text");
 

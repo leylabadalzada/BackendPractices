@@ -15,11 +15,11 @@ namespace ECommerce.Services.Implements
             _context = context;
         }
 
-        public void Create(CategoryCreateVM vm)
+        public void Create(CategoryCreateOrUpdateVM vm)
         {
             var category = new Category
             {
-                Name = vm.Name,
+                Name = vm.VmName,
                 CreatedAt = DateTime.UtcNow
             };
             _context.Categories.Add(category);
@@ -40,11 +40,37 @@ namespace ECommerce.Services.Implements
             return vms;
         }
 
+        public CategoryGetVM GetById(int id)
+        {
+            var category = _context.Categories.Find(id);
+            if (category == null) throw new Exception("Category not found!");
+            var vm = new CategoryGetVM
+            {
+                Name = category.Name,
+                Id = category.Id,
+                CreatedAt = category.CreatedAt,
+                UpdatedAt = category.UpdatedAt
+            };
+            return vm;
+        }
+
         public void Remove(int id)
         {
             var category = _context.Categories.Find(id);
             if (category == null) throw new Exception("Category not found!");
             _context.Remove(category); //Entity Framework EntityState Deleted isareleyir. Yeni SQL-de Delete from sorgusu islensin deye.
+            _context.SaveChanges();
+        }
+
+        public void Update(int id, CategoryCreateOrUpdateVM vm)
+        {
+            var category = _context.Categories.Find(id);
+            if (category == null) throw new Exception("Category not found!");
+
+            //Kids         //Children
+            category.Name = vm.VmName;
+            category.UpdatedAt = DateTime.UtcNow;
+            _context.Update(category);
             _context.SaveChanges();
         }
     }

@@ -11,6 +11,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("default")));
 
 builder.Services.AddScoped<ICategoryService, CategoryService>(); //todo:Lifecycles
+builder.Services.AddScoped<IProductService, ProductService>();
 
 var app = builder.Build();
 

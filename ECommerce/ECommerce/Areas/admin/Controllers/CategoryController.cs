@@ -27,7 +27,7 @@ namespace ECommerce.Areas.admin.Controllers
 
         //post - db-e mudaxile etmek demekdir.
         [HttpPost]
-        public IActionResult Create(CategoryCreateVM vm)
+        public IActionResult Create(CategoryCreateOrUpdateVM vm)
         {
             _service.Create(vm);
             return RedirectToAction("Index");
@@ -38,6 +38,23 @@ namespace ECommerce.Areas.admin.Controllers
         {
             _service.Remove(id);
             return RedirectToAction("Index");
+        }
+
+        public IActionResult Update(int id)
+        {
+            var getVM = _service.GetById(id);
+            var updateVM = new CategoryCreateOrUpdateVM
+            {
+                VmName = getVM.Name
+            };
+            return View(updateVM);
+        }
+
+        [HttpPost]
+        public IActionResult Update(int id, CategoryCreateOrUpdateVM vm)
+        {
+            _service.Update(id, vm);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

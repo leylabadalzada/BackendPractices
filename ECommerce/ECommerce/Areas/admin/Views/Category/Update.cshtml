@@ -2,12 +2,12 @@
 
 <div class="container">
     <div class="m-3">
-        <form asp-action="create" method="post">
+        <form asp-action="update" method="post">
             <div class="form-group">
                 <label asp-for="VmName">Name</label>
                 <input asp-for="VmName" class="form-control" aria-describedby="emailHelp">
             </div>
-            <button type="submit" class="btn btn-primary">Create</button>
+            <button type="submit" class="btn btn-primary">Update</button>
             <a class="btn" asp-action="Index">Cancel</a>
         </form>
     </div>

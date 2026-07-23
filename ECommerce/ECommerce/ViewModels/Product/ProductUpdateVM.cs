@@ -1,8 +1,6 @@
-﻿using ECommerce.Models.BaseModels;
-
-namespace ECommerce.Models
+﻿namespace ECommerce.ViewModels.Product
 {
-    public class Product : BaseEntity
+    public class ProductUpdateVM
     {
         public string Name { get; set; }
         public decimal Price { get; set; }
@@ -10,7 +8,5 @@ namespace ECommerce.Models
         public DateOnly Date { get; set; }
         public string URL { get; set; }
         public string Description { get; set; }
-        public int CategoryId { get; set; }
-        public Category Category { get; set; } //navigation property
     }
 }
