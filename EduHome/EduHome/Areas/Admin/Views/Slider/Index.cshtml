@@ -1,0 +1,10 @@
+﻿@model List<Slider>
+
+@foreach(Slider item in Model)
+{
+    <h1>@item.Title</h1>
+    <p>@item.Text</p>
+    <img src="~/img/slider/@item.Image"/>
+    <p>@item.CreatedAt</p>
+    <br />
+}
