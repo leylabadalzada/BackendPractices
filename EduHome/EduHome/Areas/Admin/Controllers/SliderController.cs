@@ -1,5 +1,5 @@
-﻿using EduHome.Contexts;
-using EduHome.Models;
+﻿using EduHome.Services.Interfaces;
+using EduHome.ViewModels.Slider;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EduHome.Areas.Admin.Controllers
@@ -7,32 +7,29 @@ namespace EduHome.Areas.Admin.Controllers
     [Area("Admin")]
     public class SliderController : Controller
     {
-        private NajibaContext _context;
+        readonly ISliderService _service;
 
-        public SliderController(NajibaContext context)
+        public SliderController(ISliderService service)
         {
-            _context = context;
+            _service = service;
         }
 
         public IActionResult Index()
         {
-            var sliders = _context.sliders.ToList();
-            return View(sliders);
+            return View();
         }
 
         public IActionResult Create()
         {
-            var slider = new Slider
-            {
-                Text = "It is a next sample text",
-                Title = "Test Slider 2",
-                CreatedAt = DateTime.UtcNow.AddHours(4),
-                Image = "slider2.jpg"
-            };
+            return View(); //yeni sehife acir
+        }
 
-            _context.sliders.Add(slider);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
+        [HttpPost]
+        public IActionResult Create(SliderCreateVM vm)
+        {
+            if (!ModelState.IsValid) return View(vm);
+            _service.Create(vm);
+            return RedirectToAction(nameof(Index)); //movcud basqa sehifeye yoneldir
         }
     }
 }

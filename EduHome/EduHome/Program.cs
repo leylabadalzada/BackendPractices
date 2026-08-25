@@ -1,12 +1,15 @@
 using EduHome.Contexts;
+using EduHome.Services.Implements;
+using EduHome.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+//IoC container - Inversion of Control
 builder.Services.AddDbContext<NajibaContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("default")));
+builder.Services.AddScoped<ISliderService, SliderService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

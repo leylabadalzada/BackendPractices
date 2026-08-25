@@ -1,4 +1,4 @@
-﻿@model List<Slider>
+﻿@* @model List<Slider>
 
 @foreach(Slider item in Model)
 {
@@ -7,4 +7,6 @@
     <img src="~/img/slider/@item.Image"/>
     <p>@item.CreatedAt</p>
     <br />
-}
+} *@
+
+<a class="btn btn-primary" asp-action="Create">Create</a>
