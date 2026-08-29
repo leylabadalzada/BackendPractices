@@ -4,11 +4,10 @@ namespace EduHome.Services.Interfaces
 {
     public interface ISliderService
     {
-        //Create
         void Create(SliderCreateVM vm);
-        //Remove
-        //Update
-        //GetAll
-        //GetSingle
+        void Remove(int id);
+        void Update(int id, SliderUpdateVM vm);
+        List<SliderGetVM> GetAll();
+        SliderGetVM GetSingle(int id);
     }
 }

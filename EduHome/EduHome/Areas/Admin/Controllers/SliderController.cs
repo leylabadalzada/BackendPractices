@@ -16,7 +16,8 @@ namespace EduHome.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var vms = _service.GetAll();
+            return View(vms);
         }
 
         public IActionResult Create()
@@ -29,6 +30,33 @@ namespace EduHome.Areas.Admin.Controllers
         {
             if (!ModelState.IsValid) return View(vm);
             _service.Create(vm);
+            return RedirectToAction(nameof(Index)); //movcud basqa sehifeye yoneldir
+        }
+
+        [HttpPost]
+        public IActionResult Remove(int id)
+        {
+            _service.Remove(id);
+            return RedirectToAction(nameof(Index)); //movcud basqa sehifeye yoneldir
+        }
+
+        public IActionResult Update(int id)
+        {
+            var slider = _service.GetSingle(id);
+            var vm = new SliderUpdateVM
+            {
+                ImageName = slider.Image,
+                Text = slider.Text,
+                Title = slider.Title
+            };
+            return View(vm);
+        }
+
+        [HttpPost]
+        public IActionResult Update(int id, SliderUpdateVM vm)
+        {
+            if (!ModelState.IsValid) return View(vm);
+            _service.Update(id, vm);
             return RedirectToAction(nameof(Index)); //movcud basqa sehifeye yoneldir
         }
     }

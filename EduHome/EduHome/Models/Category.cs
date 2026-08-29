@@ -1,6 +1,9 @@
-﻿//namespace EduHome.Models
-//{
-//    public class Category
-//    {
-//    }
-//}
+﻿using EduHome.Models.BaseModels;
+
+namespace EduHome.Models
+{
+    public class Category : BaseEntity
+    {
+        public string Name { get; set; }
+    }
+}

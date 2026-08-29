@@ -22,7 +22,7 @@ namespace EduHome.Services.Implements
 
         public void Create(SliderCreateVM vm)
         {
-            if (!vm.Image.IsSizeValid(1, FileSize.MB)) throw new Exception("Size is not valid");
+            if (!vm.Image.IsSizeValid(2, FileSize.MB)) throw new Exception("Size is not valid");
             if (!vm.Image.IsFormatValid()) throw new Exception("Format is not valid!");
 
             var slider = new Slider
@@ -37,6 +37,78 @@ namespace EduHome.Services.Implements
             if (entry.State != EntityState.Added) throw new Exception("Add Failed!"); //db-de insert emri islemeyecek
             var count = _context.SaveChanges();
             if (count <= 0) throw new Exception("Save slider failed!");
+        }
+
+        public List<SliderGetVM> GetAll()
+        {
+            var sliders = _context.sliders.AsNoTracking().ToList();
+            var vms = sliders.Select(slider => new SliderGetVM
+            {
+                Id = slider.Id,
+                Text = slider.Text,
+                CreatedAt = slider.CreatedAt,
+                Image = slider.Image,
+                Title = slider.Title,
+                UpdatedAt = slider.UpdatedAt
+            }).ToList();
+            return vms;
+        }
+
+        public SliderGetVM GetSingle(int id)
+        {
+            var slider = _context.sliders.AsNoTracking().FirstOrDefault(s => s.Id == id);
+            if (slider == null) throw new Exception("Slider not found!");
+            var vm = new SliderGetVM
+            {
+                Id = slider.Id,
+                Text = slider.Text,
+                CreatedAt = slider.CreatedAt,
+                Image = slider.Image,
+                Title = slider.Title,
+                UpdatedAt = slider.UpdatedAt
+            };
+            return vm;
+        }
+
+        public void Remove(int id)
+        {
+            var slider = _context.sliders.Find(id);
+            if (slider == null) throw new Exception("Slider not found!");
+
+            var path = $"{_env.WebRootPath}/images/slider/{slider.Image}";
+            if (File.Exists(path)) File.Delete(path);
+
+            var entry = _context.Remove(slider);
+            if (entry.State != EntityState.Deleted) throw new Exception("Remove failed");
+            var count = _context.SaveChanges();
+            if (count <= 0) throw new Exception("Save failed!");
+        }
+
+        public void Update(int id, SliderUpdateVM vm)
+        {
+            var slider = _context.sliders.Find(id);
+            if (slider == null) throw new Exception("Slider not found!");
+
+            slider.Text = vm.Text;
+            slider.Title = vm.Title;
+
+            if (vm.Image != null)
+            {
+                if (!vm.Image.IsSizeValid(2, FileSize.MB)) throw new Exception("Size is not valid");
+                if (!vm.Image.IsFormatValid()) throw new Exception("Format is not valid!");
+
+                var path = $"{_env.WebRootPath}/images/slider/{slider.Image}";
+                if (File.Exists(path)) File.Delete(path);
+
+                slider.Image = vm.Image.UploadFile(_env.WebRootPath, "images/slider");
+            }
+
+            slider.UpdatedAt = DateTime.UtcNow.AddHours(4);
+
+            var entry = _context.sliders.Update(slider);
+            if (entry.State != EntityState.Modified) throw new Exception("Update failed");
+            var count = _context.SaveChanges();
+            if (count <= 0) throw new Exception("Save failed!");
         }
     }
 }

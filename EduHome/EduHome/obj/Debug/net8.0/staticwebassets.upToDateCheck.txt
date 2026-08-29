@@ -122,8 +122,7 @@ wwwroot\js\owl.carousel.min.js
 wwwroot\js\plugins.js
 wwwroot\js\vendor\jquery-1.12.0.min.js
 wwwroot\js\vendor\modernizr-2.8.3.min.js
-wwwroot\images\slider\3170c0c9-9ad6-4d6f-a036-3e8c49938887slider1.jpg
 wwwroot\images\slider\e301762d-d145-4855-93ea-166a02b593d2slider2.jpg
-wwwroot\images\slider\65d0ee1a-e762-4e98-88c1-6e99972686daslider3.jpg
-wwwroot\images\slider\84e22e28-5f44-4289-aea8-2360f086b40cScreenshot 2026-08-25 195708.png
+wwwroot\images\slider\11073aab-2fba-4b01-a75f-0042b47f178chome.png
 wwwroot\images\slider\42799772-fcec-40ba-ac41-b87e02759022IMG-20260214-WA0000.jpg
+wwwroot\images\slider\902d5045-385c-4d2e-81cf-419eb790c30cslider1.jpg
