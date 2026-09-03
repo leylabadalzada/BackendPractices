@@ -1,4 +1,4 @@
-﻿namespace EduHome.ViewModels.Slider
+﻿namespace EduHome.Areas.Admin.ViewModels.Slider
 {
     public class SliderUpdateVM
     {

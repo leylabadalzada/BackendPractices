@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EduHome.ViewModels.Slider
+namespace EduHome.Areas.Admin.ViewModels.Slider
 {
     public record SliderCreateVM
     {

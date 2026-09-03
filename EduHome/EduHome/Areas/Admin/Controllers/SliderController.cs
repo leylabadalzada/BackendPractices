@@ -1,5 +1,5 @@
-﻿using EduHome.Services.Interfaces;
-using EduHome.ViewModels.Slider;
+﻿using EduHome.Areas.Admin.ViewModels.Slider;
+using EduHome.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EduHome.Areas.Admin.Controllers

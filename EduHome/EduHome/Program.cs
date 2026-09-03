@@ -10,6 +10,8 @@ builder.Services.AddControllersWithViews();
 //IoC container - Inversion of Control
 builder.Services.AddDbContext<NajibaContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("default")));
 builder.Services.AddScoped<ISliderService, SliderService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IBlogService, BlogService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -7,6 +7,7 @@ namespace EduHome.Contexts
     {
         public DbSet<Slider> sliders { get; set; }
         public DbSet<Category> categories { get; set; }
+        public DbSet<Blog> blogs { get; set; }
         public NajibaContext(DbContextOptions options) : base(options)
         {
         }
