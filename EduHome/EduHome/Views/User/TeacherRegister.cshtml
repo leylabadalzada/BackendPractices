@@ -1,0 +1,103 @@
+﻿@model TeacherRegisterVM
+
+<!-- Banner Area Start -->
+<div class="banner-area-wrapper">
+    <div class="banner-area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="banner-content-wrapper">
+                        <div class="banner-content">
+                            <h2>sign up</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner Area End -->
+<!-- Register start -->
+<div class="register-area pt-150 pb-150">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3 text-center">
+                <div class="login">
+                    <div class="login-form-container">
+                        <div class="login-text">
+                            <h2>sign up</h2>
+                            <span>Please login using account detail bellow.</span>
+                        </div>
+                        <div class="login-form">
+                            <form asp-action="TeacherRegister" method="post" enctype="multipart/form-data">
+                                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                <label asp-for="Firstname">Firstname</label>
+                                <input asp-for="Firstname" placeholder="f.e John">
+                                <span asp-validation-for="Firstname" class="text-danger"></span>
+
+                                <label asp-for="Lastname">Lastname</label>
+                                <input asp-for="Lastname" placeholder="f.e Doe">
+                                <span asp-validation-for="Lastname" class="text-danger"></span>
+
+                                <label asp-for="Username">Username</label>
+                                <input asp-for="Username" placeholder="f.e johndoe">
+                                <span asp-validation-for="Username" class="text-danger"></span>
+
+                                <label asp-for="Email">Email Address</label>
+                                <input asp-for="Email" placeholder="example@gmail.com">
+                                <span asp-validation-for="Email" class="text-danger"></span>
+
+                                <label asp-for="PhoneNumber">Phone Number</label>
+                                <input asp-for="PhoneNumber" placeholder="+994501234567">
+                                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+
+                                <label asp-for="Degree">Degree</label>
+                                <input asp-for="Degree" placeholder="f.e Master">
+                                <span asp-validation-for="Degree" class="text-danger"></span>
+
+                                <label asp-for="Speciality">Speciality</label>
+                                <input asp-for="Speciality" placeholder="f.e Computer Science">
+                                <span asp-validation-for="Speciality" class="text-danger"></span>
+
+                                <label asp-for="Faculty">Faculty</label>
+                                <input asp-for="Faculty" placeholder="f.e IT & Engineering">
+                                <span asp-validation-for="Faculty" class="text-danger"></span>
+
+                                <label asp-for="ExperienceInYear">Experience (In Years)</label>
+                                <input asp-for="ExperienceInYear" type="number" placeholder="f.e 5">
+                                <span asp-validation-for="ExperienceInYear" class="text-danger"></span>
+
+                                <label asp-for="Description">Description</label>
+                                <input asp-for="Description" placeholder="Short summary about yourself">
+                                <span asp-validation-for="Description" class="text-danger"></span>
+
+                                <label asp-for="Image">Profile Image</label>
+                                <input asp-for="Image" type="file" accept="image/*">
+                                <span asp-validation-for="Image" class="text-danger"></span>
+
+                                <label asp-for="Password">Password</label>
+                                <input asp-for="Password" type="password" placeholder="Password">
+                                <span asp-validation-for="Password" class="text-danger"></span>
+
+                                <label asp-for="ConfirmPassword">Confirm Password</label>
+                                <input asp-for="ConfirmPassword" type="password" placeholder="Repeat Password">
+                                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+                                <div class="button-box">
+                                    <div class="login-toggle-btn">
+                                        <input type="checkbox" id="remember">
+                                        <label for="remember">Remember me</label>
+                                    </div>
+                                    <button type="submit" class="default-btn">Sign up</button>
+                                </div>
+                            </form>
+                            <a asp-action="UserRegister">Register as student</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Register end --> 

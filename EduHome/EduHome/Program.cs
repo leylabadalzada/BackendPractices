@@ -1,4 +1,6 @@
 using EduHome.Contexts;
+using EduHome.Models;
+using EduHome.Models.BaseModels;
 using EduHome.Services.Implements;
 using EduHome.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -9,9 +11,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 //IoC container - Inversion of Control
 builder.Services.AddDbContext<NajibaContext>(opt => opt.UseNpgsql(builder.Configuration.GetConnectionString("default")));
+builder.Services.AddIdentity<BaseUser, Role>().AddEntityFrameworkStores<NajibaContext>();
+
 builder.Services.AddScoped<ISliderService, SliderService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IBlogService, BlogService>();
+builder.Services.AddScoped<ITeacherService, TeacherService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
