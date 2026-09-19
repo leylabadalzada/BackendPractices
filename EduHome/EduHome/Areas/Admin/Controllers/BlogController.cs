@@ -1,7 +1,5 @@
-﻿using EduHome.Areas.Admin.ViewModels.Blog;
-using EduHome.Services.Interfaces;
+﻿using EduHome.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace EduHome.Areas.Admin.Controllers
 {
@@ -17,56 +15,16 @@ namespace EduHome.Areas.Admin.Controllers
             _categoryService = categoryService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var vms = _service.GetAll();
+            var vms = await _service.GetAllAsync();
             return View(vms);
         }
 
-        public IActionResult Create()
-        {
-            var categories = _categoryService.GetAll();
-            ViewBag.Categories = categories
-                .Select(x => new SelectListItem
-                {
-                    Value = x.Id.ToString(),
-                    Text = x.Name
-                });
-            return View();
-        }
-
         [HttpPost]
-        public IActionResult Create(BlogCreateVM vm)
+        public async Task<IActionResult> Remove(int id)
         {
-            if (!ModelState.IsValid) return View(vm);
-            _service.Create(vm);
-            return RedirectToAction(nameof(Index));
-        }
-
-        [HttpPost]
-        public IActionResult Remove(int id)
-        {
-            _service.Remove(id);
-            return RedirectToAction(nameof(Index));
-        }
-
-        public IActionResult Update(int id)
-        {
-            var getVM = _service.GetSingle(id);
-            var vm = new BlogUpdateVM
-            {
-                ImageName = getVM.Image,
-                Text = getVM.Text,
-                Title = getVM.Title
-            };
-            return View(vm);
-        }
-
-        [HttpPost]
-        public IActionResult Update(int id, BlogUpdateVM vm)
-        {
-            if (!ModelState.IsValid) return View(vm);
-            _service.Update(id, vm);
+            await _service.RemoveAsync(id);
             return RedirectToAction(nameof(Index));
         }
     }

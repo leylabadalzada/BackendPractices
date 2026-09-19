@@ -1,6 +1,7 @@
 ﻿@model List<BlogGetVM>
 
 <div class="container">
+    <a class="btn btn-primary" asp-action="Create">Create</a>
     <table class="table">
         <thead>
             <tr>
@@ -32,6 +33,10 @@
                                     <i class="fa-solid fa-trash text-danger"></i>
                                 </button>
                             </form>
+
+                            <a asp-action="update" asp-route-id="@item.Id">
+                                <i class="fa-solid fa-edit text-warning"></i>
+                            </a>
                         </div>
                     </td>
                 </tr>

@@ -4,6 +4,7 @@ using EduHome.Models.BaseModels;
 using EduHome.Services.Interfaces;
 using EduHome.ViewModels.User;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace EduHome.Services.Implements
 {
@@ -56,10 +57,47 @@ namespace EduHome.Services.Implements
             };
 
             var result = await _userManager.CreateAsync(user, vm.Password);
-            if (!result.Succeeded) throw new Exception("Register user failed!");
+            if (!result.Succeeded) throw new Exception(result.Errors.FirstOrDefault().Description);
 
             result = await _userManager.AddToRoleAsync(user, "Student");
-            if (!result.Succeeded) throw new Exception("Add role failed!");
+            if (!result.Succeeded) throw new Exception(result.Errors.FirstOrDefault().Description);
+        }
+
+        public async Task RemoveAccount(string id)
+        {
+            var teacher = await _userManager.Users.OfType<Teacher>().FirstOrDefaultAsync(t => t.Id == id);
+            if (teacher == null) throw new Exception("Teacher not found!");
+
+            var path = $"{_env.WebRootPath}/images/user/{teacher.Image}";
+            if (File.Exists(path)) File.Delete(path);
+
+            var result = await _userManager.DeleteAsync(teacher);
+            if (!result.Succeeded) throw new Exception(result.Errors.FirstOrDefault().Description);
+        }
+
+        public async Task UpdateAsync(string id, TeacherUpdateVM vm)
+        {
+            var teacher = await _userManager.Users.OfType<Teacher>().FirstOrDefaultAsync(t => t.Id == id);
+            if (teacher == null) throw new Exception("Teacher not found!");
+
+            if (vm.Image != null)
+            {
+                var path = $"{_env.WebRootPath}/images/user/{teacher.Image}";
+                if (File.Exists(path)) File.Delete(path);
+
+                teacher.Image = vm.Image.UploadFile(_env.WebRootPath, "images/user");
+            }
+
+            teacher.Faculty = vm.Faculty;
+            teacher.Firstname = vm.Firstname;
+            teacher.Lastname = vm.Lastname;
+            teacher.Degree = vm.Degree;
+            teacher.Description = vm.Description;
+            teacher.Speciality = vm.Speciality;
+            teacher.ExperienceInYear = (byte)vm.ExperienceInYear;
+
+            var result = await _userManager.UpdateAsync(teacher);
+            if (!result.Succeeded) throw new Exception(result.Errors.FirstOrDefault().Description);
         }
     }
 }

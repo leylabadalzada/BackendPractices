@@ -14,9 +14,9 @@ namespace EduHome.Areas.Admin.Controllers
             _service = service;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var vms = _service.GetAll();
+            var vms = await _service.GetAllAsync();
             return View(vms);
         }
 
@@ -26,23 +26,23 @@ namespace EduHome.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(SliderCreateVM vm)
+        public async Task<IActionResult> Create(SliderCreateVM vm)
         {
             if (!ModelState.IsValid) return View(vm);
-            _service.Create(vm);
+            await _service.CreateAsync(vm);
             return RedirectToAction(nameof(Index)); //movcud basqa sehifeye yoneldir
         }
 
         [HttpPost]
-        public IActionResult Remove(int id)
+        public async Task<IActionResult> Remove(int id)
         {
-            _service.Remove(id);
+            await _service.RemoveAsync(id);
             return RedirectToAction(nameof(Index)); //movcud basqa sehifeye yoneldir
         }
 
-        public IActionResult Update(int id)
+        public async Task<IActionResult> Update(int id)
         {
-            var slider = _service.GetSingle(id);
+            var slider = await _service.GetSingleAsync(id);
             var vm = new SliderUpdateVM
             {
                 ImageName = slider.Image,
@@ -53,10 +53,10 @@ namespace EduHome.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update(int id, SliderUpdateVM vm)
+        public async Task<IActionResult> Update(int id, SliderUpdateVM vm)
         {
             if (!ModelState.IsValid) return View(vm);
-            _service.Update(id, vm);
+            await _service.UpdateAsync(id, vm);
             return RedirectToAction(nameof(Index)); //movcud basqa sehifeye yoneldir
         }
     }

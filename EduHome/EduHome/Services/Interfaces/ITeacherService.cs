@@ -6,9 +6,10 @@ namespace EduHome.Services.Interfaces
     {
         Task Register(TeacherRegisterVM vm);
         Task RegisterUser(AppUserRegisterVM vm);
-        //RemoveAccount
+        Task RemoveAccount(string id);
+        Task UpdateAsync(string id, TeacherUpdateVM vm);
         //ChangeEmail
         //ChangePassword
-        //Update
+
     }
 }
