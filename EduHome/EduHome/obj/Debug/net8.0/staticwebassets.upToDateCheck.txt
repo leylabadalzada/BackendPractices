@@ -41,7 +41,14 @@ wwwroot\images\slider\11073aab-2fba-4b01-a75f-0042b47f178chome.png
 wwwroot\images\slider\42799772-fcec-40ba-ac41-b87e02759022IMG-20260214-WA0000.jpg
 wwwroot\images\slider\902d5045-385c-4d2e-81cf-419eb790c30cslider1.jpg
 wwwroot\images\slider\e301762d-d145-4855-93ea-166a02b593d2slider2.jpg
+wwwroot\images\teacher\096d662a-1092-4f9b-8b35-dec7c74d122cIMG-20260214-WA0000.jpg
+wwwroot\images\teacher\23a8fe24-2476-4450-b017-34ccfba6577cIMG-20260214-WA0000.jpg
+wwwroot\images\teacher\6c988fcd-5d7b-4259-bfac-1a32ed2d3592IMG-20260214-WA0000.jpg
+wwwroot\images\teacher\7e1483a7-1ccd-4fa1-8425-4d92c627fc50IMG-20260214-WA0000.jpg
+wwwroot\images\teacher\84a26aee-4166-406e-8935-2fa1e7232c6dIMG-20260214-WA0000.jpg
 wwwroot\images\teacher\a9d9e17a-775e-473d-9497-a807d3c266beIMG-20260510-WA0119.jpg
+wwwroot\images\teacher\dd91788b-092f-4b96-bb04-5fb85ddcfa53IMG-20260510-WA0119.jpg
+wwwroot\images\teacher\dff06c67-53cb-44b9-8758-017faec2cd3bIMG-20260214-WA0000.jpg
 wwwroot\img\about\about.png
 wwwroot\img\banner\banner.jpg
 wwwroot\img\blog\blog-detail.jpg

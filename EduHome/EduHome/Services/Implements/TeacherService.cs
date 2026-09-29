@@ -2,6 +2,7 @@
 using EduHome.Models;
 using EduHome.Models.BaseModels;
 using EduHome.Services.Interfaces;
+using EduHome.ViewModels.Teacher;
 using EduHome.ViewModels.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -19,7 +20,42 @@ namespace EduHome.Services.Implements
             _env = env;
         }
 
-        public async Task Register(TeacherRegisterVM vm)
+        public async Task<List<TeacherGetAllVM>> GetAllAsync()
+        {
+            var teachers = await _userManager.Users.OfType<Teacher>().AsNoTracking().ToListAsync();
+            var vms = teachers.Select(teacher => new TeacherGetAllVM
+            {
+                Id = teacher.Id,
+                Firstname = teacher.Firstname,
+                Lastname = teacher.Lastname,
+                Image = teacher.Image,
+                Speciality = teacher.Speciality
+            }).ToList();
+            return vms;
+        }
+
+        public async Task<TeacherGetSingleVM> GetSingleAsync(string id)
+        {
+            var teacher = await _userManager.Users.OfType<Teacher>().FirstOrDefaultAsync(t => t.Id == id);
+            if (teacher == null) throw new Exception("Teacher not found!");
+            var vm = new TeacherGetSingleVM
+            {
+                Id = teacher.Id,
+                Firstname = teacher.Firstname,
+                Lastname = teacher.Lastname,
+                Image = teacher.Image,
+                Speciality = teacher.Speciality,
+                Degree = teacher.Degree,
+                Description = teacher.Description,
+                Email = teacher.Email,
+                ExperienceInYear = teacher.ExperienceInYear,
+                Faculty = teacher.Faculty,
+                Phone = teacher.PhoneNumber
+            };
+            return vm;
+        }
+
+        public async Task RegisterAsync(TeacherRegisterVM vm)
         {
             var teacher = new Teacher
             {
@@ -33,17 +69,17 @@ namespace EduHome.Services.Implements
                 PhoneNumber = vm.PhoneNumber,
                 Speciality = vm.Speciality,
                 UserName = vm.Username,
-                Image = vm.Image.UploadFile(_env.WebRootPath, "images/user")
+                Image = vm.Image.UploadFile(_env.WebRootPath, "images/teacher")
             };
 
             var result = await _userManager.CreateAsync(teacher, vm.Password);
-            if (!result.Succeeded) throw new Exception("Register user failed!");
+            if (!result.Succeeded) throw new Exception("RegisterAsync user failed!");
 
             result = await _userManager.AddToRoleAsync(teacher, "Teacher");
             if (!result.Succeeded) throw new Exception("Add role failed!");
         }
 
-        public async Task RegisterUser(AppUserRegisterVM vm)
+        public async Task RegisterUserAsync(AppUserRegisterVM vm)
         {
             var user = new AppUser
             {
@@ -63,7 +99,7 @@ namespace EduHome.Services.Implements
             if (!result.Succeeded) throw new Exception(result.Errors.FirstOrDefault().Description);
         }
 
-        public async Task RemoveAccount(string id)
+        public async Task RemoveAccountAsync(string id)
         {
             var teacher = await _userManager.Users.OfType<Teacher>().FirstOrDefaultAsync(t => t.Id == id);
             if (teacher == null) throw new Exception("Teacher not found!");
@@ -85,7 +121,7 @@ namespace EduHome.Services.Implements
                 var path = $"{_env.WebRootPath}/images/user/{teacher.Image}";
                 if (File.Exists(path)) File.Delete(path);
 
-                teacher.Image = vm.Image.UploadFile(_env.WebRootPath, "images/user");
+                teacher.Image = vm.Image.UploadFile(_env.WebRootPath, "images/teacher");
             }
 
             teacher.Faculty = vm.Faculty;

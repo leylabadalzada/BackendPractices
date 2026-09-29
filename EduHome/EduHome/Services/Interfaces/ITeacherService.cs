@@ -1,15 +1,17 @@
-﻿using EduHome.ViewModels.User;
+﻿using EduHome.ViewModels.Teacher;
+using EduHome.ViewModels.User;
 
 namespace EduHome.Services.Interfaces
 {
     public interface ITeacherService
     {
-        Task Register(TeacherRegisterVM vm);
-        Task RegisterUser(AppUserRegisterVM vm);
-        Task RemoveAccount(string id);
+        Task RegisterAsync(TeacherRegisterVM vm);
+        Task RegisterUserAsync(AppUserRegisterVM vm);
+        Task RemoveAccountAsync(string id);
         Task UpdateAsync(string id, TeacherUpdateVM vm);
+        Task<List<TeacherGetAllVM>> GetAllAsync();
+        Task<TeacherGetSingleVM> GetSingleAsync(string id);
         //ChangeEmail
         //ChangePassword
-
     }
 }

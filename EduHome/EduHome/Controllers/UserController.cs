@@ -22,9 +22,9 @@ namespace EduHome.Controllers
         public async Task<IActionResult> TeacherRegister(TeacherRegisterVM vm)
         {
             if (!ModelState.IsValid) return View(vm);
-            await _teacherService.Register(vm);
+            await _teacherService.RegisterAsync(vm);
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Login", "Authenticate");
         }
 
         public IActionResult UserRegister()
@@ -36,9 +36,9 @@ namespace EduHome.Controllers
         public async Task<IActionResult> UserRegister(AppUserRegisterVM vm)
         {
             if (!ModelState.IsValid) return View(vm);
-            await _teacherService.RegisterUser(vm);
+            await _teacherService.RegisterUserAsync(vm);
 
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Login", "Authenticate");
         }
     }
 }
