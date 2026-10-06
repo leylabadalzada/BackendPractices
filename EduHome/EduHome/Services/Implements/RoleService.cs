@@ -24,7 +24,7 @@ namespace EduHome.Services.Implements
             };
 
             var result = await _roleManager.CreateAsync(role);
-            if (!result.Succeeded) throw new Exception("Create role failed");
+            if (!result.Succeeded) throw new Exception("CreateAsync role failed");
         }
 
         public async Task<List<RoleGetVM>> GetAll()

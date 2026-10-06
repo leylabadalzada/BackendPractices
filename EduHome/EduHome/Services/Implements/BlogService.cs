@@ -28,7 +28,8 @@ namespace EduHome.Services.Implements
                 Title = vm.Title,
                 Image = vm.Image.UploadFile(_env.WebRootPath, "images/blog"),
                 CreatedAt = DateTime.UtcNow.AddHours(4),
-                CategoryId = category.Id
+                CategoryId = category.Id,
+                TeacherId = vm.TeacherId
             };
 
             var entry = await _context.blogs.AddAsync(blog);
@@ -39,7 +40,7 @@ namespace EduHome.Services.Implements
 
         public async Task<List<BlogGetVM>> GetAllAsync()
         {
-            var blogs = await _context.blogs.AsNoTracking().Include(b => b.Category).ToListAsync();
+            var blogs = await _context.blogs.AsNoTracking().Include(b => b.Category).Include(b => b.Teacher).ToListAsync();
             var vms = blogs.Select(blog => new BlogGetVM
             {
                 Id = blog.Id,
@@ -48,14 +49,15 @@ namespace EduHome.Services.Implements
                 Text = blog.Text,
                 Title = blog.Title,
                 UpdatedAt = blog.UpdatedAt,
-                CategoryName = blog.Category.Name
+                CategoryName = blog.Category.Name,
+                TeacherName = blog.Teacher.UserName
             }).ToList();
             return vms;
         }
 
         public async Task<BlogGetVM> GetSingleAsync(int id)
         {
-            var blog = await _context.blogs.AsNoTracking().Include(b => b.Category).FirstOrDefaultAsync(b => b.Id == id);
+            var blog = await _context.blogs.AsNoTracking().Include(b => b.Category).Include(b => b.Teacher).FirstOrDefaultAsync(b => b.Id == id);
             if (blog == null) throw new Exception("Blog not found");
             var vm = new BlogGetVM
             {
@@ -65,7 +67,8 @@ namespace EduHome.Services.Implements
                 Text = blog.Text,
                 Title = blog.Title,
                 UpdatedAt = blog.UpdatedAt,
-                CategoryName = blog.Category.Name
+                CategoryName = blog.Category.Name,
+                TeacherName = blog.Teacher.UserName
             };
             return vm;
         }

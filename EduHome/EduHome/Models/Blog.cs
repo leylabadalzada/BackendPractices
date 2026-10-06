@@ -7,8 +7,10 @@ namespace EduHome.Models
         public string Image { get; set; }
         public string Title { get; set; }
         public string Text { get; set; }
-        //teacher
+        public string TeacherId { get; set; }
+        public Teacher Teacher { get; set; }
         public int CategoryId { get; set; } //one terefdir
         public Category Category { get; set; } //navigation
+
     }
 }

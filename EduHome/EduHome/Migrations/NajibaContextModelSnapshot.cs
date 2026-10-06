@@ -121,6 +121,10 @@ namespace EduHome.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("TeacherId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Text")
                         .IsRequired()
                         .HasColumnType("text");
@@ -135,6 +139,8 @@ namespace EduHome.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
+
+                    b.HasIndex("TeacherId");
 
                     b.ToTable("blogs");
                 });
@@ -160,6 +166,76 @@ namespace EduHome.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("categories");
+                });
+
+            modelBuilder.Entity("EduHome.Models.Course", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("integer");
+
+                    b.Property<byte>("ClassDurationInHours")
+                        .HasColumnType("smallint");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<byte>("DurationInMonth")
+                        .HasColumnType("smallint");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Info")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("IsSelfAssesment")
+                        .HasColumnType("boolean");
+
+                    b.Property<int>("Language")
+                        .HasColumnType("integer");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.Property<int>("SkillLevel")
+                        .HasColumnType("integer");
+
+                    b.Property<DateOnly>("StartsAt")
+                        .HasColumnType("date");
+
+                    b.Property<int>("StudentCapacity")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("TeacherId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.HasIndex("TeacherId");
+
+                    b.ToTable("courses");
                 });
 
             modelBuilder.Entity("EduHome.Models.Role", b =>
@@ -381,7 +457,34 @@ namespace EduHome.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("EduHome.Models.Teacher", "Teacher")
+                        .WithMany("Blogs")
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Category");
+
+                    b.Navigation("Teacher");
+                });
+
+            modelBuilder.Entity("EduHome.Models.Course", b =>
+                {
+                    b.HasOne("EduHome.Models.Category", "Category")
+                        .WithMany("Courses")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EduHome.Models.Teacher", "Teacher")
+                        .WithMany("Courses")
+                        .HasForeignKey("TeacherId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+
+                    b.Navigation("Teacher");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -438,6 +541,15 @@ namespace EduHome.Migrations
             modelBuilder.Entity("EduHome.Models.Category", b =>
                 {
                     b.Navigation("Blogs");
+
+                    b.Navigation("Courses");
+                });
+
+            modelBuilder.Entity("EduHome.Models.Teacher", b =>
+                {
+                    b.Navigation("Blogs");
+
+                    b.Navigation("Courses");
                 });
 #pragma warning restore 612, 618
         }
