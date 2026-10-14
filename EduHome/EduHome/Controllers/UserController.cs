@@ -24,7 +24,20 @@ namespace EduHome.Controllers
             if (!ModelState.IsValid) return View(vm);
             await _teacherService.RegisterAsync(vm);
 
-            return RedirectToAction("Login", "Authenticate");
+            return RedirectToAction(nameof(VerifyEmail), new { email = vm.Email });
+        }
+
+        public IActionResult VerifyEmail(string email)
+        {
+            ViewBag.Email = email;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> VerifyEmail(OtpVM vm)
+        {
+            var result = await _teacherService.VerifyAccountAsync(vm.Email, vm.Otp);
+            return result ? RedirectToAction("Login", "Authenticate") : BadRequest("Failed!");
         }
 
         public IActionResult UserRegister()

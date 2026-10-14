@@ -4,6 +4,7 @@ using EduHome.Models.BaseModels;
 using EduHome.Services.Implements;
 using EduHome.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,9 @@ builder.Services.AddScoped<ITeacherService, TeacherService>();
 builder.Services.AddScoped<IRoleService, RoleService>();
 builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
+builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddSingleton<IMemoryCache, MemoryCache>();
+builder.Services.AddScoped<IOtpService, OtpService>();
 
 var app = builder.Build();
 

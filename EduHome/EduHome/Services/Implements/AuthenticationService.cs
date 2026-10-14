@@ -21,7 +21,7 @@ namespace EduHome.Services.Implements
         public async Task LoginAsync(LoginVM vm)
         {
             var user = await _userManager.FindByNameAsync(vm.Username);
-
+            if (!user.EmailConfirmed) throw new Exception("Please, verify your email, then log in.");
             var result = await _signManager.PasswordSignInAsync(user, vm.Password, true, false);
             if (!result.Succeeded) throw new Exception("Username or password is not correct!");
         }
