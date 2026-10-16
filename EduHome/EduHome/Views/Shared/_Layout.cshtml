@@ -42,14 +42,46 @@
 		                        <p>HAVE ANY QUESTION ?  +880 5698  598  6587</p>
 		                    </div>
 		                </div>
-		                <div class="col-md-4 col-sm-4 col-xs-12">
-		                    <div class="header-top-right text-right">
-		                        <ul>
-		                            <li><a asp-controller="authenticate" asp-action="login">login</a></li>
-		                            <li><a asp-controller="user" asp-action="teacherregister">signup</a></li>
-		                        </ul>
-		                    </div>
-		                </div>
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <div class="header-top-right text-right">
+                            <ul>
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <!-- İstifadəçi daxil olubsa bu hissə görünəcək -->
+                                    <li>
+                                        <a asp-controller="User" asp-action="Dashboard" style="display: inline; margin: 0; padding: 0;">
+                                            <i class="fa fa-user"></i> @User.Identity.Name
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <form asp-controller="Authenticate"
+                                              asp-action="Logout"
+                                              method="post"
+                                              style="display: inline-block; margin: 0;">
+
+                                            <button type="submit"
+                                                    style="display: inline-block !important;
+                                                visibility: visible !important;
+                                                opacity: 1 !important;
+                                                background: #007bff;
+                                                color: white;
+                                                border: none;
+                                                padding: 6px 12px;
+                                                cursor: pointer;">
+                                                Logout
+                                            </button>
+                                        </form>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <!-- İstifadəçi daxil olmayıbsa login/signup görünəcək -->
+                                    <li><a asp-controller="Authenticate" asp-action="Login">login</a></li>
+                                    <li><a asp-controller="User" asp-action="TeacherRegister">signup</a></li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
 		            </div>
 		        </div>
 		    </div>

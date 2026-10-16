@@ -127,8 +127,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/Authenticate/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRlXEZvcmdvdFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/Authenticate/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRlXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/Authenticate/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRlXFJlc2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/Authenticate/VerifyOtp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRlXFZlcmlmeU90cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/Blog/Details.cshtml]
