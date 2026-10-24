@@ -1,12 +1,10 @@
 ﻿using EduHome.ViewModels.Teacher;
-using EduHome.ViewModels.User;
 
 namespace EduHome.Services.Interfaces
 {
     public interface ITeacherService
     {
         Task RegisterAsync(TeacherRegisterVM vm);
-        Task RegisterUserAsync(AppUserRegisterVM vm);
         Task RemoveAccountAsync(string id);
         Task UpdateAsync(string id, TeacherUpdateVM vm);
         Task<List<TeacherGetAllVM>> GetAllAsync();

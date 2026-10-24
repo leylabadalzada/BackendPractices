@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EduHome.ViewModels.User
+namespace EduHome.ViewModels.Student
 {
-    public record AppUserRegisterVM
+    public record StudentRegisterVM
     {
         public string Firstname { get; set; }
         public string Lastname { get; set; }

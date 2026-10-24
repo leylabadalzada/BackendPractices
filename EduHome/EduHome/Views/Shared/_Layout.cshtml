@@ -48,12 +48,33 @@
                                 @if (User.Identity.IsAuthenticated)
                                 {
                                     <!-- İstifadəçi daxil olubsa bu hissə görünəcək -->
-                                    <li>
-                                        <a asp-controller="User" asp-action="Dashboard" style="display: inline; margin: 0; padding: 0;">
-                                            <i class="fa fa-user"></i> @User.Identity.Name
-                                        </a>
-                                    </li>
-                                    <li>
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <li>
+                                            <a asp-area="admin" asp-controller="dashboard" asp-action="index" style="display: inline; margin: 0; padding: 0;">
+                                                <i class="fa fa-user"></i> @User.Identity.Name
+                                            </a>
+                                        </li>
+                                    }
+
+                                @if (User.IsInRole("Teacher"))
+                                    {
+                                        <li>
+                                            <a asp-area="teacher" asp-controller="dashboard" asp-action="index" style="display: inline; margin: 0; padding: 0;">
+                                                <i class="fa fa-user"></i> @User.Identity.Name
+                                            </a>
+                                        </li>
+                                    }
+
+                                    @if (User.IsInRole("Student"))
+                                {
+                                            <li>
+                                                <a asp-controller="student" asp-action="index" style="display: inline; margin: 0; padding: 0;">
+                                                    <i class="fa fa-user"></i> @User.Identity.Name
+                                                </a>
+                                            </li>
+                                }
+                                <li>
                                         <form asp-controller="Authenticate"
                                               asp-action="Logout"
                                               method="post"
@@ -77,7 +98,7 @@
                                 {
                                     <!-- İstifadəçi daxil olmayıbsa login/signup görünəcək -->
                                     <li><a asp-controller="Authenticate" asp-action="Login">login</a></li>
-                                    <li><a asp-controller="User" asp-action="TeacherRegister">signup</a></li>
+                                    <li><a asp-controller="Student" asp-action="Register">signup</a></li>
                                 }
                             </ul>
                         </div>

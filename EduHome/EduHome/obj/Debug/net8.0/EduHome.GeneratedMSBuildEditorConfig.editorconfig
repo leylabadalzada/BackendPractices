@@ -179,12 +179,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/User/TeacherRegister.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxUZWFjaGVyUmVnaXN0ZXIuY3NodG1s
+[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/User/UserRegister.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyUmVnaXN0ZXIuY3NodG1s
+[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/Student/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/Student/VerifyStudentEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxWZXJpZnlTdHVkZW50RW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/User/TeacherRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxUZWFjaGVyUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Programming/Teaching/CodeLank/Practices/C\#-F01/Backend/EduHome/EduHome/Views/User/VerifyEmail.cshtml]

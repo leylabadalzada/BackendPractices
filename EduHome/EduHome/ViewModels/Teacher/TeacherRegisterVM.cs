@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EduHome.ViewModels.User
+namespace EduHome.ViewModels.Teacher
 {
     public record TeacherRegisterVM
     {

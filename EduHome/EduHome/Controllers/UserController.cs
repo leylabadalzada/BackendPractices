@@ -1,4 +1,5 @@
 ﻿using EduHome.Services.Interfaces;
+using EduHome.ViewModels.Teacher;
 using EduHome.ViewModels.User;
 using Microsoft.AspNetCore.Mvc;
 
@@ -38,20 +39,6 @@ namespace EduHome.Controllers
         {
             var result = await _teacherService.VerifyAccountAsync(vm.Email, vm.Otp);
             return result ? RedirectToAction("Login", "Authenticate") : BadRequest("Failed!");
-        }
-
-        public IActionResult UserRegister()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> UserRegister(AppUserRegisterVM vm)
-        {
-            if (!ModelState.IsValid) return View(vm);
-            await _teacherService.RegisterUserAsync(vm);
-
-            return RedirectToAction("Login", "Authenticate");
         }
     }
 }

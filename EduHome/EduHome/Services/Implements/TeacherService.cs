@@ -3,7 +3,6 @@ using EduHome.Models;
 using EduHome.Models.BaseModels;
 using EduHome.Services.Interfaces;
 using EduHome.ViewModels.Teacher;
-using EduHome.ViewModels.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -83,26 +82,6 @@ namespace EduHome.Services.Implements
             if (!result.Succeeded) throw new Exception("Add role failed!");
             var otp = _otpService.GenerateOtp(teacher.Email);
             await _emailService.SendEmailAsync(teacher.Email, "Verify your email", $"Here is your OTP code, it expires in 5 Minutes: {otp}", false);
-        }
-
-        public async Task RegisterUserAsync(AppUserRegisterVM vm)
-        {
-            var user = new AppUser
-            {
-                Email = vm.Email,
-                Firstname = vm.Firstname,
-                Lastname = vm.Lastname,
-                PhoneNumber = vm.PhoneNumber,
-                BirthDate = vm.Birthdate,
-                University = vm.University,
-                UserName = vm.Username
-            };
-
-            var result = await _userManager.CreateAsync(user, vm.Password);
-            if (!result.Succeeded) throw new Exception(result.Errors.FirstOrDefault().Description);
-
-            result = await _userManager.AddToRoleAsync(user, "Student");
-            if (!result.Succeeded) throw new Exception(result.Errors.FirstOrDefault().Description);
         }
 
         public async Task RemoveAccountAsync(string id)

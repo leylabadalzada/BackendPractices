@@ -24,6 +24,7 @@ builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
 builder.Services.AddSingleton<IMemoryCache, MemoryCache>();
 builder.Services.AddScoped<IOtpService, OtpService>();
+builder.Services.AddScoped<IStudentService, StudentService>();
 builder.Services.AddHttpContextAccessor();
 var app = builder.Build();
 
