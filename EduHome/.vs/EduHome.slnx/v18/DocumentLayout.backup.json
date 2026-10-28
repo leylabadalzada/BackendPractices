@@ -3,72 +3,28 @@
   "WorkspaceRootPath": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\authenticate\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\authenticate\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\viewmodels\\student\\studentgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\viewmodels\\student\\studentgetvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\controllers\\authenticatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\services\\implements\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\services\\implements\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\services\\implements\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\services\\implements\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\student\\verifystudentemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\student\\verifystudentemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\student\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\user\\teacherregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\user\\teacherregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\viewmodels\\student\\studentregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\viewmodels\\student\\studentregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\authenticate\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\authenticate\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\services\\implements\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\services\\implements\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\services\\interfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\services\\interfaces\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\viewmodels\\teacher\\teacherregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\viewmodels\\teacher\\teacherregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\viewmodels\\teacher\\teachergetallvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\viewmodels\\teacher\\teachergetallvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\viewmodels\\authentication\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\viewmodels\\authentication\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,222 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "EduHome\\Views\\Student\\Index.cshtml",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Student\\Index.cshtml*",
-              "RelativeToolTip": "EduHome\\Views\\Student\\Index.cshtml*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Authenticate\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "EduHome\\Views\\Authenticate\\ResetPassword.cshtml",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Authenticate\\ResetPassword.cshtml*",
+              "RelativeToolTip": "EduHome\\Views\\Authenticate\\ResetPassword.cshtml*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-24T10:50:24.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentGetVM.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Student\\StudentGetVM.cs",
-              "RelativeDocumentMoniker": "EduHome\\ViewModels\\Student\\StudentGetVM.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Student\\StudentGetVM.cs",
-              "RelativeToolTip": "EduHome\\ViewModels\\Student\\StudentGetVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:50:07.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "EduHome\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Controllers\\UserController.cs",
-              "RelativeToolTip": "EduHome\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:14:29.632Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Implements\\StudentService.cs",
-              "RelativeDocumentMoniker": "EduHome\\Services\\Implements\\StudentService.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Implements\\StudentService.cs",
-              "RelativeToolTip": "EduHome\\Services\\Implements\\StudentService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAgwDsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:04:38.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "EduHome\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "EduHome\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:10:36.824Z",
+              "WhenOpened": "2026-10-28T15:23:38.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "EduHome\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "EduHome\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-24T10:13:52.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VerifyStudentEmail.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Student\\VerifyStudentEmail.cshtml",
-              "RelativeDocumentMoniker": "EduHome\\Views\\Student\\VerifyStudentEmail.cshtml",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Student\\VerifyStudentEmail.cshtml",
-              "RelativeToolTip": "EduHome\\Views\\Student\\VerifyStudentEmail.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-24T10:23:31.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TeacherRegister.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\User\\TeacherRegister.cshtml",
-              "RelativeDocumentMoniker": "EduHome\\Views\\User\\TeacherRegister.cshtml",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\User\\TeacherRegister.cshtml",
-              "RelativeToolTip": "EduHome\\Views\\User\\TeacherRegister.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-24T10:13:08.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Student\\Register.cshtml",
-              "RelativeDocumentMoniker": "EduHome\\Views\\Student\\Register.cshtml",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Student\\Register.cshtml",
-              "RelativeToolTip": "EduHome\\Views\\Student\\Register.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAE4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-24T10:11:52.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "EduHome\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "EduHome\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-24T10:12:16.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Program.cs",
               "RelativeDocumentMoniker": "EduHome\\Program.cs",
               "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Program.cs",
               "RelativeToolTip": "EduHome\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:10:55.827Z",
+              "WhenOpened": "2026-10-28T15:20:51.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentRegisterVM.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Student\\StudentRegisterVM.cs",
-              "RelativeDocumentMoniker": "EduHome\\ViewModels\\Student\\StudentRegisterVM.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Student\\StudentRegisterVM.cs",
-              "RelativeToolTip": "EduHome\\ViewModels\\Student\\StudentRegisterVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:04:59.003Z",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Authenticate\\Login.cshtml",
+              "RelativeDocumentMoniker": "EduHome\\Views\\Authenticate\\Login.cshtml",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Authenticate\\Login.cshtml",
+              "RelativeToolTip": "EduHome\\Views\\Authenticate\\Login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwC4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T15:20:24.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "TeacherService.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Implements\\TeacherService.cs",
-              "RelativeDocumentMoniker": "EduHome\\Services\\Implements\\TeacherService.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Implements\\TeacherService.cs",
-              "RelativeToolTip": "EduHome\\Services\\Implements\\TeacherService.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAAswHsAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "EduHome\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "EduHome\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAD0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:05:53.801Z",
+              "WhenOpened": "2026-10-28T15:09:57.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ITeacherService.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Interfaces\\ITeacherService.cs",
-              "RelativeDocumentMoniker": "EduHome\\Services\\Interfaces\\ITeacherService.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Interfaces\\ITeacherService.cs",
-              "RelativeToolTip": "EduHome\\Services\\Interfaces\\ITeacherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Implements\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "EduHome\\Services\\Implements\\AuthenticationService.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Implements\\AuthenticationService.cs",
+              "RelativeToolTip": "EduHome\\Services\\Implements\\AuthenticationService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:06:18.456Z",
+              "WhenOpened": "2026-10-28T14:57:21.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Interfaces\\IStudentService.cs",
-              "RelativeDocumentMoniker": "EduHome\\Services\\Interfaces\\IStudentService.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Interfaces\\IStudentService.cs",
-              "RelativeToolTip": "EduHome\\Services\\Interfaces\\IStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ResetPasswordVM.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Authentication\\ResetPasswordVM.cs",
+              "RelativeDocumentMoniker": "EduHome\\ViewModels\\Authentication\\ResetPasswordVM.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Authentication\\ResetPasswordVM.cs",
+              "RelativeToolTip": "EduHome\\ViewModels\\Authentication\\ResetPasswordVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:04:29.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TeacherRegisterVM.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Teacher\\TeacherRegisterVM.cs",
-              "RelativeDocumentMoniker": "EduHome\\ViewModels\\Teacher\\TeacherRegisterVM.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Teacher\\TeacherRegisterVM.cs",
-              "RelativeToolTip": "EduHome\\ViewModels\\Teacher\\TeacherRegisterVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:05:42.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "TeacherGetAllVM.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Teacher\\TeacherGetAllVM.cs",
-              "RelativeDocumentMoniker": "EduHome\\ViewModels\\Teacher\\TeacherGetAllVM.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\ViewModels\\Teacher\\TeacherGetAllVM.cs",
-              "RelativeToolTip": "EduHome\\ViewModels\\Teacher\\TeacherGetAllVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-24T10:05:39.846Z",
+              "WhenOpened": "2026-10-28T15:00:00.218Z",
               "EditorCaption": ""
             }
           ]

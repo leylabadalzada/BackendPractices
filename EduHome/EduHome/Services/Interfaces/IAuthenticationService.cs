@@ -7,5 +7,6 @@ namespace EduHome.Services.Interfaces
         Task<string> ForgotPasswordAsync(string email);
         Task LoginAsync(LoginVM vm);
         Task LogoutAsync();
+        Task ResetPasswordAsync(string email, string token, string newPassword);
     }
 }

@@ -52,9 +52,18 @@ namespace EduHome.Controllers
         }
 
 
-        public IActionResult ResetPassword()
+        public IActionResult ResetPassword(string email, string token)
         {
+            ViewBag.Email = email;
+            ViewBag.Token = token;
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordVM vm)
+        {
+            await _service.ResetPasswordAsync(vm.Email, vm.Token, vm.Password);
+            return RedirectToAction(nameof(Login));
         }
     }
 }

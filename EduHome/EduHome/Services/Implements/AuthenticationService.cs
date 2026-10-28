@@ -47,6 +47,14 @@ namespace EduHome.Services.Implements
 
             return $"Email was sent to {email}";
         }
+
+        public async Task ResetPasswordAsync(string email, string token, string newPassword)
+        {
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null) throw new Exception("User not found");
+            var result = await _userManager.ResetPasswordAsync(user, token, newPassword);
+            if (!result.Succeeded) throw new Exception("Reset password failed");
+        }
     }
 }
 
