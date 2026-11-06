@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\views\\authenticate\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\authenticate\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\views\\authenticate\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\eduhome\\eduhome\\viewmodels\\authentication\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55EC654-6F9B-DF46-120E-703AACBCF9FB}|EduHome\\EduHome.csproj|solutionrelative:eduhome\\viewmodels\\authentication\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Authenticate\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "EduHome\\Views\\Authenticate\\ResetPassword.cshtml",
@@ -51,20 +51,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Program.cs",
               "RelativeDocumentMoniker": "EduHome\\Program.cs",
               "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Program.cs",
               "RelativeToolTip": "EduHome\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABzAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-28T15:20:51.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Views\\Authenticate\\Login.cshtml",
               "RelativeDocumentMoniker": "EduHome\\Views\\Authenticate\\Login.cshtml",
@@ -72,12 +72,11 @@
               "RelativeToolTip": "EduHome\\Views\\Authenticate\\Login.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAcwC4AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-10-28T15:20:24.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-28T15:20:24.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AuthenticateController.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Controllers\\AuthenticateController.cs",
               "RelativeDocumentMoniker": "EduHome\\Controllers\\AuthenticateController.cs",
@@ -85,12 +84,11 @@
               "RelativeToolTip": "EduHome\\Controllers\\AuthenticateController.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAAAD0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T15:09:57.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-28T15:09:57.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\EduHome\\EduHome\\Services\\Implements\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "EduHome\\Services\\Implements\\AuthenticationService.cs",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "EduHome\\Services\\Implements\\AuthenticationService.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAADIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T14:57:21.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-28T14:57:21.844Z"
             },
             {
               "$type": "Document",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "EduHome\\ViewModels\\Authentication\\ResetPasswordVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-28T15:00:00.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-28T15:00:00.218Z"
             }
           ]
         }

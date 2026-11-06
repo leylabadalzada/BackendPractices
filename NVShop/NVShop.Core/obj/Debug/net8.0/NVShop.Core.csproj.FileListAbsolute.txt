@@ -1,0 +1,14 @@
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\bin\Debug\net8.0\NVShop.Core.deps.json
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\bin\Debug\net8.0\NVShop.Core.dll
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\bin\Debug\net8.0\NVShop.Core.pdb
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.Core.csproj.AssemblyReference.cache
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.Core.AssemblyInfoInputs.cache
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.Core.AssemblyInfo.cs
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.Core.csproj.CoreCompileInputs.cache
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.Core.sourcelink.json
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.Core.dll
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\refint\NVShop.Core.dll
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.Core.pdb
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\ref\NVShop.Core.dll
+D:\Programming\Teaching\CodeLank\Practices\C#-F01\Backend\NVShop\NVShop.Core\obj\Debug\net8.0\NVShop.C.CF70F390.Up2Date

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="NVShop.Core/NVShop.Core.csproj" />
+  <Project Path="NVShop.Data/NVShop.Data.csproj" />
+  <Project Path="NVShop.Presentation/NVShop.Presentation.csproj" />
+  <Project Path="NVShop.Service/NVShop.Service.csproj" />
+</Solution>
