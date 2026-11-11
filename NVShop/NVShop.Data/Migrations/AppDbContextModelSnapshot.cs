@@ -30,11 +30,11 @@ namespace NVShop.Data.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<DateOnly>("CreatedAt")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateOnly?>("DeletedAt")
-                        .HasColumnType("date");
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("boolean");
@@ -43,8 +43,8 @@ namespace NVShop.Data.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateOnly?>("UpdatedAt")
-                        .HasColumnType("date");
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
 
