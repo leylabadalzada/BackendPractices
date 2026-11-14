@@ -2,6 +2,7 @@
 using NVShop.Core.Models;
 using NVShop.Data.Contexts;
 using NVShop.Data.Repositories.Interfaces;
+using System.Linq.Expressions;
 
 namespace NVShop.Data.Repositories.Implements
 {
@@ -35,6 +36,8 @@ namespace NVShop.Data.Repositories.Implements
         public bool Toogle(Category category)
         {
             category.IsDeleted = !category.IsDeleted;
+            category.DeletedAt = DateTime.UtcNow;
+            _context.Update(category);
             return category.IsDeleted;
         }
 
@@ -46,6 +49,22 @@ namespace NVShop.Data.Repositories.Implements
         public IQueryable<Category> GetAll(bool isTracking, params string[] includes)
         {
             var query = _context.categories.AsQueryable();
+            if (!isTracking) query.AsNoTracking();
+
+            if (includes.Any())
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+
+            return query;
+        }
+
+        public IQueryable<Category> GetAllWhere(Expression<Func<Category, bool>> predicate, bool isTracking, params string[] includes)
+        {
+            var query = _context.categories.Where(predicate).AsQueryable();
             if (!isTracking) query.AsNoTracking();
 
             if (includes.Any())
@@ -73,6 +92,23 @@ namespace NVShop.Data.Repositories.Implements
             }
 
             var category = await query.FirstOrDefaultAsync(c => c.Id == id);
+            return category;
+        }
+
+        public async Task<Category> GetWhereAsync(Expression<Func<Category, bool>> predicate, bool isTracking, params string[] includes)
+        {
+            var query = _context.categories.AsQueryable();
+            if (!isTracking) query.AsNoTracking();
+
+            if (includes.Any())
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+
+            var category = await query.FirstOrDefaultAsync(predicate);
             return category;
         }
     }

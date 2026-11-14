@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.data\\repositories\\implements\\catergoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|solutionrelative:nvshop.data\\repositories\\implements\\catergoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1D59526-CD02-62A8-DF9E-758BBF1B67EC}|NVShop.Presentation\\NVShop.Presentation.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.presentation\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1D59526-CD02-62A8-DF9E-758BBF1B67EC}|NVShop.Presentation\\NVShop.Presentation.csproj|solutionrelative:nvshop.presentation\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.service\\services\\implements\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|solutionrelative:nvshop.service\\services\\implements\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.service\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|solutionrelative:nvshop.service\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.service\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|solutionrelative:nvshop.service\\services\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.service\\services\\implements\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|solutionrelative:nvshop.service\\services\\implements\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.data\\repositories\\implements\\catergoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|solutionrelative:nvshop.data\\repositories\\implements\\catergoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.service\\dtos\\category\\categorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|solutionrelative:nvshop.service\\dtos\\category\\categorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.service\\extension\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|solutionrelative:nvshop.service\\extension\\mapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|solutionrelative:nvshop.data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1D59526-CD02-62A8-DF9E-758BBF1B67EC}|NVShop.Presentation\\NVShop.Presentation.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1D59526-CD02-62A8-DF9E-758BBF1B67EC}|NVShop.Presentation\\NVShop.Presentation.csproj|solutionrelative:nvshop.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.service\\dtos\\category\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|solutionrelative:nvshop.service\\dtos\\category\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.service\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CACDE3F-76A3-E53C-8F8E-D7CA2DC59F1F}|NVShop.Service\\NVShop.Service.csproj|solutionrelative:nvshop.service\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.data\\repositories\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,15 +59,11 @@
       "RelativeMoniker": "D:0:0:{52EA9BE4-8101-BD19-D53A-A23928783568}|NVShop.Core\\NVShop.Core.csproj|solutionrelative:nvshop.core\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Migrations\\20261111145517_datetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NVShop.Data\\Migrations\\20261111145517_datetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Leyla\\AppData\\Roaming\\Microsoft\\UserSecrets\\59a6140e-76d4-44c4-a749-bb7ab53f6ad6\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|solutionrelative:nvshop.data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|d:\\programming\\teaching\\codelank\\practices\\c#-f01\\backend\\nvshop\\nvshop.data\\migrations\\20261111145517_datetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1AD88D-7C65-6625-10A0-63305BDB34D6}|NVShop.Data\\NVShop.Data.csproj|solutionrelative:nvshop.data\\migrations\\20261111145517_datetime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -61,32 +73,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryCreateDto.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\DTOs\\Category\\CategoryCreateDto.cs",
-              "RelativeDocumentMoniker": "NVShop.Service\\DTOs\\Category\\CategoryCreateDto.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\DTOs\\Category\\CategoryCreateDto.cs",
-              "RelativeToolTip": "NVShop.Service\\DTOs\\Category\\CategoryCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T15:28:34.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Services\\Interfaces\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "NVShop.Service\\Services\\Interfaces\\ICategoryService.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Services\\Interfaces\\ICategoryService.cs",
-              "RelativeToolTip": "NVShop.Service\\Services\\Interfaces\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAUAAAAAAAAAA==",
+              "Title": "CategoryGetDto.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\DTOs\\Category\\CategoryGetDto.cs",
+              "RelativeDocumentMoniker": "NVShop.Service\\DTOs\\Category\\CategoryGetDto.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\DTOs\\Category\\CategoryGetDto.cs",
+              "RelativeToolTip": "NVShop.Service\\DTOs\\Category\\CategoryGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T14:59:31.192Z",
+              "WhenOpened": "2026-11-14T16:36:12.1Z",
               "EditorCaption": ""
             },
             {
@@ -95,48 +94,74 @@
               "Title": "CategoryService.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Services\\implements\\CategoryService.cs",
               "RelativeDocumentMoniker": "NVShop.Service\\Services\\implements\\CategoryService.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Services\\implements\\CategoryService.cs*",
-              "RelativeToolTip": "NVShop.Service\\Services\\implements\\CategoryService.cs*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB4AAAApAAAAAAAAAA==",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Services\\implements\\CategoryService.cs",
+              "RelativeToolTip": "NVShop.Service\\Services\\implements\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T14:59:45.596Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Presentation\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "NVShop.Presentation\\Controllers\\CategoriesController.cs",
               "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Presentation\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "NVShop.Presentation\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T14:56:44.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CatergoryRepository.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Repositories\\Implements\\CatergoryRepository.cs",
               "RelativeDocumentMoniker": "NVShop.Data\\Repositories\\Implements\\CatergoryRepository.cs",
               "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Repositories\\Implements\\CatergoryRepository.cs",
               "RelativeToolTip": "NVShop.Data\\Repositories\\Implements\\CatergoryRepository.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA5wCoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAswGEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T15:04:56.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "NVShop.Service\\Services\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Services\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "NVShop.Service\\Services\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T14:59:31.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Mapping.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Extension\\Mapping.cs",
+              "RelativeDocumentMoniker": "NVShop.Service\\Extension\\Mapping.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\Extension\\Mapping.cs",
+              "RelativeToolTip": "NVShop.Service\\Extension\\Mapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T17:21:35.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Presentation\\Program.cs",
               "RelativeDocumentMoniker": "NVShop.Presentation\\Program.cs",
               "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Presentation\\Program.cs",
               "RelativeToolTip": "NVShop.Presentation\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-11T14:52:35.12Z",
               "EditorCaption": ""
@@ -144,6 +169,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "NVShop.Data\\Contexts\\AppDbContext.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "NVShop.Data\\Contexts\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T14:52:27.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryUpdateDto.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\DTOs\\Category\\CategoryUpdateDto.cs",
+              "RelativeDocumentMoniker": "NVShop.Service\\DTOs\\Category\\CategoryUpdateDto.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\DTOs\\Category\\CategoryUpdateDto.cs",
+              "RelativeToolTip": "NVShop.Service\\DTOs\\Category\\CategoryUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T17:01:13.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryCreateDto.cs",
+              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\DTOs\\Category\\CategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "NVShop.Service\\DTOs\\Category\\CategoryCreateDto.cs",
+              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Service\\DTOs\\Category\\CategoryCreateDto.cs",
+              "RelativeToolTip": "NVShop.Service\\DTOs\\Category\\CategoryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:28:34.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Repositories\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "NVShop.Data\\Repositories\\Interfaces\\ICategoryRepository.cs",
@@ -156,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Core\\Models\\BaseModels\\BaseEntity.cs",
               "RelativeDocumentMoniker": "NVShop.Core\\Models\\BaseModels\\BaseEntity.cs",
@@ -164,12 +227,11 @@
               "RelativeToolTip": "NVShop.Core\\Models\\BaseModels\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T14:53:01.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T14:53:01.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "20261106160115_category.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Migrations\\20261106160115_category.cs",
               "RelativeDocumentMoniker": "NVShop.Data\\Migrations\\20261106160115_category.cs",
@@ -177,12 +239,11 @@
               "RelativeToolTip": "NVShop.Data\\Migrations\\20261106160115_category.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T14:55:54.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T14:55:54.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Core\\Models\\Category.cs",
               "RelativeDocumentMoniker": "NVShop.Core\\Models\\Category.cs",
@@ -190,12 +251,11 @@
               "RelativeToolTip": "NVShop.Core\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T14:52:58.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T14:52:58.181Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "20261111145517_datetime.cs",
               "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Migrations\\20261111145517_datetime.cs",
               "RelativeDocumentMoniker": "NVShop.Data\\Migrations\\20261111145517_datetime.cs",
@@ -203,32 +263,17 @@
               "RelativeToolTip": "NVShop.Data\\Migrations\\20261111145517_datetime.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T14:55:17.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T14:55:17.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Leyla\\AppData\\Roaming\\Microsoft\\UserSecrets\\59a6140e-76d4-44c4-a749-bb7ab53f6ad6\\secrets.json",
               "ToolTip": "C:\\Users\\Leyla\\AppData\\Roaming\\Microsoft\\UserSecrets\\59a6140e-76d4-44c4-a749-bb7ab53f6ad6\\secrets.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-11-11T14:52:47.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Contexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "NVShop.Data\\Contexts\\AppDbContext.cs",
-              "ToolTip": "D:\\Programming\\Teaching\\CodeLank\\Practices\\C#-F01\\Backend\\NVShop\\NVShop.Data\\Contexts\\AppDbContext.cs",
-              "RelativeToolTip": "NVShop.Data\\Contexts\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-11T14:52:27.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-11T14:52:47.751Z"
             }
           ]
         }
