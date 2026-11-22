@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using NVShop.Core.Models;
 using NVShop.Data.Contexts;
 using NVShop.Data.Repositories.Implements;
 using NVShop.Data.Repositories.Interfaces;
@@ -15,10 +16,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Repostories
-builder.Services.AddScoped<ICategoryRepository, CatergoryRepository>();
+builder.Services.AddScoped<IGenericRepository<Category>, GenericRepository<Category>>();
+builder.Services.AddScoped<IGenericRepository<Product>, GenericRepository<Product>>();
 
 //Services
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
 
 builder.Services.AddDbContext<AppDbContext>(opt =>

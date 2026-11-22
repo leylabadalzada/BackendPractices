@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NVShop.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55b318b0bd72fb847c28fe73121fe57345fa2ad4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9985d262b2a9b1b687fc1af37d91edb337c2daf")]
 [assembly: System.Reflection.AssemblyProductAttribute("NVShop.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NVShop.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,9 +9,9 @@ namespace NVShop.Service.Services.implements
 {
     public class CategoryService : ICategoryService
     {
-        readonly ICategoryRepository _repository;
+        readonly IGenericRepository<Category> _repository;
 
-        public CategoryService(ICategoryRepository repository)
+        public CategoryService(IGenericRepository<Category> repository)
         {
             _repository = repository;
         }
