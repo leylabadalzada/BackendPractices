@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using NVShop.Core.Models;
+using NVShop.Core.Models.BaseModels;
 using NVShop.Data.Contexts;
 using NVShop.Data.Repositories.Implements;
 using NVShop.Data.Repositories.Interfaces;
-using NVShop.Service.Services.implements;
+using NVShop.Service.Services.Implements;
 using NVShop.Service.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,12 +24,18 @@ builder.Services.AddScoped<IGenericRepository<Product>, GenericRepository<Produc
 //Services
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IRoleService, RoleService>();
+builder.Services.AddScoped<ICustomerService, CustomerService>();
 
 
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
     opt.UseNpgsql(builder.Configuration.GetConnectionString("Default"));
 });
+
+builder.Services.AddIdentity<BaseUser, Role>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
 
 var app = builder.Build();
 

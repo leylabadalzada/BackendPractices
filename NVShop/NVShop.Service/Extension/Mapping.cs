@@ -1,6 +1,8 @@
 ﻿using NVShop.Core.Models;
 using NVShop.Service.DTOs.Category;
+using NVShop.Service.DTOs.Customer;
 using NVShop.Service.DTOs.Product;
+using NVShop.Service.DTOs.Role;
 
 namespace NVShop.Service.Extension
 {
@@ -30,6 +32,27 @@ namespace NVShop.Service.Extension
                 Stock = product.Stock,
                 UpdatedAt = product.UpdatedAt,
                 CategoryName = product.Category.Name
+            };
+
+        public static RoleGetDto ToRoleGetDto(this Role role) =>
+            new RoleGetDto
+            {
+                Id = role.Id,
+                Name = role.Name,
+                Description = role.Description
+            };
+
+        public static CustomerGetDto ToCustomerGetDto(this Customer customer) =>
+            new CustomerGetDto
+            {
+                Id = customer.Id,
+                Birthdate = customer.Birthdate,
+                Email = customer.Email,
+                Firstname = customer.Firstname,
+                Lastname = customer.Lastname,
+                Username = customer.UserName,
+                CreatedAt = customer.CreatedAt,
+                UpdatedAt = customer.UpdatedAt
             };
     }
 }

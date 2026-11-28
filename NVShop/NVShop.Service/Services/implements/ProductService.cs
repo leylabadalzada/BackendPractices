@@ -5,7 +5,7 @@ using NVShop.Service.DTOs.Product;
 using NVShop.Service.Extension;
 using NVShop.Service.Services.Interfaces;
 
-namespace NVShop.Service.Services.implements
+namespace NVShop.Service.Services.Implements
 {
     public class ProductService : IProductService
     {
